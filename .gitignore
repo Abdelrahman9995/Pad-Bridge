@@ -1,0 +1,20 @@
+# Pad Bridge: files it creates on your own PC (do not publish them)
+pad_bridge_config.json
+pad_bridge_config.json.bad-*
+pad_bridge_cache.json
+pad_bridge_hidhide_state.json
+pad_bridge_hidhide_state.json.bad-*
+pad_bridge.log
+pad_bridge.log.1
+gamecontrollerdb_community.txt
+gamecontrollerdb_active.txt
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+
+# Build output
+build/
+dist/
+*.spec
